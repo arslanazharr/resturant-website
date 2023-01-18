@@ -1,0 +1,255 @@
+/* body styling */
+.bg {
+  background-color: white;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* header */
+
+#header-nav {
+  background-color: rgba(37, 49, 43, 0.822);
+  padding: 9px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+.navbar-nav a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 5px;
+}
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+}
+.navbar-nav a:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+nav .navbar-toggler {
+  border: 0px;
+}
+nav .navbar-toggler-icon {
+  background-image: url(/images/toggles/arrow.svg);
+}
+
+/* carousel section */
+
+.carousel-inner {
+  margin-top: 124px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+}
+#carouselExampleCaptions {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/* ambiance section */
+
+#ambiance-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: black;
+}
+#card-row {
+  display: flex;
+  justify-content: center;
+}
+#interior-1 {
+  width: auto;
+  margin: 10px;
+  background-color: rgba(37, 49, 43, 0.822);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+#interior-2 {
+  width: auto;
+  margin: 10px;
+  background-color: rgba(37, 49, 43, 0.822);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+#interior-3 {
+  width: auto;
+  margin: 10px;
+  background-color: rgba(37, 49, 43, 0.822);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/* tiles section*/
+
+#more-heading {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+#menu-tile,
+#specials-tile,
+#map-tile {
+  border: 2px solid rgb(255, 255, 255);
+  height: 250px;
+  width: auto;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  border: solid rgba(37, 49, 43, 0.822);
+}
+#menu-tile {
+  background: url(/images/tiles/special.jpg) no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url(/images/tiles/menu.jpg) no-repeat;
+  background-position: center;
+}
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+
+/* footer section */
+
+.panel-footer {
+  background-color: rgba(37, 49, 43, 0.822);
+  color: white;
+  width: 100%;
+}
+
+#address,
+#hours,
+#testimonials {
+  line-height: 2;
+  text-align: center;
+}
+#address > span,
+#hours > span,
+#testimonials > span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.copyright {
+  text-align: center;
+  color: lightgray;
+  margin-top: 25px;
+}
+
+#address p {
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(229, 255, 0);
+}
+#testimonials p {
+  font-style: italic;
+}
+
+/* menu-category */
+
+#menu-heading {
+  text-align: center;
+  font-size: 3em;
+  margin: 160px 0 30px 0;
+  text-transform: uppercase;
+}
+.category-tile {
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font: 1.2em;
+  text-transform: uppercase;
+  background-color: black;
+  opacity: 0.8;
+}
+.category-tile:hover {
+  border: solid black;
+}
+
+/* single category */
+
+#lunch-menu-heading {
+  text-align: center;
+  font-size: 3em;
+  margin: 160px 0 30px 0;
+  text-transform: uppercase;
+}
+
+#reminder {
+  margin-bottom: 40px;
+}
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: 0.6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  padding: 0;
+  /*  margin-top: 40px; */
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: grey;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-item-photo {
+    width: 250px;
+  }
+}

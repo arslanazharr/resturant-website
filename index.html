@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGAIN</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.2.0-web/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg">
+    <header id="header-nav">
+      <nav class="navbar navbar-expand-lg navbar-expand-md bg-default mx-3">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" href="index.html"
+              ><img id="logo" src="images/logos/dine in.svg" alt="logo"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="menu.html"
+                ><i class="fa-solid fa-utensils"></i><br />Menu</a
+              >
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-circle-info"></i><br />About</a
+              >
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-star"></i><br />Reviews</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end of navbar section-->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade mx-3"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="images/carousel/1.png"
+            class="d-block w-100"
+            alt="image 1"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Asian Cuisine</h3>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="images/carousel/2.png"
+            class="d-block w-100"
+            alt="image 2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Chinese Cuisine</h3>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="images/carousel/3.png"
+            class="d-block w-100"
+            alt="image 3"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Pakistani Cuisine</h3>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div>
+      <!-- end of carousel section -->
+      <h1 id="ambiance-heading">Ambiance</h1>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="card-row">
+        <div class="card col-md-4 col-sm-6 col-xs-12 p-2" id="interior-1">
+          <img
+            src="/images/interior/interior 1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-text">Spacious Sitting Area</h5>
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-6 col-xs-12 p-2" id="interior-2">
+          <img
+            src="/images/interior/interior 2.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-text">State of the Art Environment</h5>
+          </div>
+        </div>
+        <div
+          id="interior-3"
+          class="card col-md-4 col-sm-12 col-xs-12 p-2"
+          id="interior-3"
+        >
+          <img
+            src="/images/interior/interior 3.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-text">Bar Area</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of ambiance section -->
+
+    <div>
+      <h1 class id="more-heading">More</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="menu.html">
+            <div id="menu-tile"><span>Menu</span></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="single.html">
+            <div id="specials-tile"><span>Specials</span></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="https://goo.gl/maps/rVVRQqJmPE26n56Q8" target="_blank">
+            <div id="map-tile">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3403.3112807559914!2d74.27049606514915!3d31.460622281389416!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d31.4605568!2d74.27194879999999!4m5!1s0x3918ffcfe7fac93f%3A0xc5292224a729b803!2sgoogle%20maps%20cinnova!3m2!1d31.460556399999998!2d74.2734096!5e0!3m2!1sen!2s!4v1662632701672!5m2!1sen!2s"
+                width="100%"
+                height="250px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe
+              ><span>Map</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end of tiles section-->
+
+    <footer class="panel-footer py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <section class="col-lg-4 col-md-6 col-sm-12" id="hours">
+            <span>Hours:</span><br />
+            Mon-Thurs: 11:00am - 12:00pm <br />
+            Fri-Sun: 11:00am - 02:00am
+            <hr class="d-lg-none d-md-none" />
+          </section>
+          <section class="col-lg-4 col-md-6 col-sm-12" id="address">
+            <span>Address:</span><br />
+            51 Shah Alam Rd <br />
+            Block R Phase 2 <br />
+            Johar Town, Lahore, Pakistan
+            <p>*Free delivery within 3-4 miles area.</p>
+            <hr class="d-lg-none d-md-none" />
+          </section>
+          <section class="col-lg-4 col-md-12 col-sm-12" id="testimonials">
+            <span>Testimonials:</span><br />
+            <p>"Best resturant in town!"</p>
+            <p>"Amazing food with good ambiance!"</p>
+          </section>
+          <hr />
+        </div>
+        <div class="copyright">
+          &copy; Copyright Hot N Spicy Fried Chicken 2022
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
