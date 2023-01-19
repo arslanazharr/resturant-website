@@ -33,7 +33,7 @@ nav .navbar-toggler {
   border: 0px;
 }
 nav .navbar-toggler-icon {
-  background-image: url(/images/toggles/arrow.svg);
+  background-image: url(/resturant-website/images/toggles/arrow.svg);
 }
 
 /* carousel section */
@@ -115,11 +115,11 @@ nav .navbar-toggler-icon {
   border: solid rgba(37, 49, 43, 0.822);
 }
 #menu-tile {
-  background: url(/images/tiles/special.jpg) no-repeat;
+  background: url(/resturant-website/images/tiles/special.jpg) no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url(/images/tiles/menu.jpg) no-repeat;
+  background: url(/resturant-website/images/tiles/menu.jpg) no-repeat;
   background-position: center;
 }
 #menu-tile span,
